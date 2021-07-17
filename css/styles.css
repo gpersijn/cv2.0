@@ -1,7 +1,6 @@
 body{
     margin: 0;
     text-align: center;
-    background-color: #E4F9F5;
     width: 100%;
 }
 h1 {
@@ -38,4 +37,18 @@ p {
     left: 25%;
     bottom: 53%;
 }
-
+@media only screen and (max-width: 480px) {
+    .mountain {
+      width: 88%;
+    }
+    .bottom-cloud{
+        left: 8%;
+        bottom: 43%;
+        width: 30%;
+    }
+    .top-cloud{
+        width: 30%;
+        right: 13%;
+        top: 11%;
+    }
+}
