@@ -9,11 +9,19 @@ body{
     position: absolute;
     right: 23%;
     top: 8%;
+    width: 9%;
 }
-.bottom-cloud{
+#middle-cloud {
+    position: absolute;
+    right: 27%;
+    top: 46%;
+    width: 9%;
+}
+#bottom-cloud{
     position: absolute;
     left: 25%;
     bottom: 53%;
+    width: 9%;
 }
 h1 {
     margin-top: 0;
@@ -53,7 +61,73 @@ p {
     position: relative;
     display: inline-block;
 }
+#code-icon {
+    width: 100%;
+}
+.st-all{
+    padding: 2% 0;
+}
+.st {
+    display: inline-block;
+    position: relative;
+    width: 25%;
+}
+#st-1 {
+    position: relative;
+    bottom: 33px;
+    right: 10px;
+}
+#st-2 {
+    position: relative;
+    bottom: 35px;
+}
+#h2-st {
+    position: relative;
+    bottom: 12px;
 
+}
+.h3-st {
+    position: relative;
+    padding-bottom: 5px;
+    left: 15px;
+}
+ul {
+    list-style: none;
+}
+
+#hr1 {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: #7952B3;
+    border-width: 5px;
+    width: 4%;
+}
+.cc-all{
+    position: relative;
+    display: inline-block;
+    top: 30px;
+    background-color: #E4F9F5;
+}
+#img-cert1 {
+    width: 30%;
+}
+#cloud4 {
+    position: absolute;
+    left: 118%;
+    width: 20%;
+    top: 247px;
+}
+#cloud5 {
+    position: absolute;
+    right: 109%;
+    width: 20%;
+    top: 103px;
+}
+#img-pc {
+    width: 29%;
+    position: relative;
+    bottom: 27px;
+}
 
 @media only screen and (max-width: 480px) {
     .mountain {
