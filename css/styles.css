@@ -5,6 +5,12 @@ body{
     font-family: 'Merriweather', serif;
     background-color: #E8F0F2;
 }
+#h1-gustave {
+    font-size: 70px;
+}
+ #mountain {
+    width: 60%;
+} 
 .top-cloud {
     position: absolute;
     right: 23%;
@@ -14,13 +20,13 @@ body{
 #middle-cloud {
     position: absolute;
     right: 27%;
-    top: 46%;
+    top: 40%;
     width: 9%;
 }
 #bottom-cloud{
     position: absolute;
     left: 25%;
-    bottom: 53%;
+    bottom: 62%;
     width: 9%;
 }
 h1 {
@@ -39,6 +45,9 @@ h2, h3 {
 p {
     width: 40%;
     margin: 0 auto 0 auto;
+}
+#p-1{
+    margin: -44px auto 0 auto;
 }
 .top-container {
     background-color: #E4F9F5; 
@@ -97,6 +106,7 @@ ul {
 
 #hr1 {
     border-style: none;
+    margin: 0px auto 60px auto;
     border-top-style: dotted;
     border-color: #7952B3;
     border-width: 5px;
@@ -105,8 +115,9 @@ ul {
 .cc-all{
     position: relative;
     display: inline-block;
-    top: 30px;
+    padding: 2%;
     background-color: #E4F9F5;
+    margin: 0 0 5% 0;
 }
 #img-cert1 {
     width: 30%;
@@ -124,13 +135,42 @@ ul {
     top: 103px;
 }
 #img-pc {
-    width: 29%;
+    width: 8%;
+    left: 10px;
+    position: fixed;
+    bottom: 13px;
+}
+#img-pc2 {
+    width: 7%;
+    right: 10px;
+    position: fixed;
+    bottom: 9px;
+}
+.bottom-container {
     position: relative;
-    bottom: 27px;
+    display: inline-block;
+    height: 97px;
+    background-color: #DEEDF0;
+}
+.logos {
+    width: 11%;
+}
+#hr-bottom{
+    margin: 0;
+}
+.div-cb{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    display: inline-block;
+    width: 18%;
+}
+a{
+    position: absolute;
 }
 
 @media only screen and (max-width: 480px) {
-    .mountain {
+    #mountain {
       width: 88%;
     }
     .profile {
